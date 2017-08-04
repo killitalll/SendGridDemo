@@ -23,7 +23,7 @@ namespace SendGrid.Models.Helper_Classes
             var myMessage = new SendGridMessage();
             myMessage.AddTo(message.Destination);
             //myMessage.From = new System.Net.Mail.MailAddress("Joe@contoso.com", "Joe S.");
-            myMessage.From = new SendGrid.Helpers.Mail.EmailAddress("Joe@contoso.com", "Joe S.");
+            myMessage.From = new SendGrid.Helpers.Mail.EmailAddress("arad18@student.monash.edu", "Alex Radev");
             myMessage.Subject = message.Subject;
            // myMessage.Text = message.Body;
            //myMessage.Html = message.Body;
